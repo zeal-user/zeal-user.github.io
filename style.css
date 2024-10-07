@@ -18,7 +18,7 @@ body {
 /* Header Section */
 header {
     display: flex;
-    align-items: center; /* Vertically aligns image and content */
+    align-items: center;
     padding: 20px;
     border-bottom: 2px solid #e6e6e6;
     background-color: #e0f7fa;
@@ -39,14 +39,14 @@ header {
 
 /* Align the content vertically */
 header div {
-    text-align: left; /* Align text to the left */
+    text-align: left;
     display: flex;
-    flex-direction: column; /* Stack the content vertically */
-    justify-content: center; /* Vertically centers the content */
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1, h2, p {
-    margin: 5px 0; /* Small spacing between lines */
+    margin: 5px 0;
 }
 
 h1 {
@@ -65,9 +65,8 @@ p {
     margin: 5px 0;
 }
 
-/* Class for black text */
 p.black-text {
-    color: #000000; /* Gray color for specific paragraphs */
+    color: #000000;
 }
 
 a {
@@ -78,6 +77,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 /* Section Styling */
 section {
     margin-bottom: 25px;
@@ -126,7 +126,6 @@ footer {
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* border-top: 2px solid #e6e6e6; */
     background-color: #e0f7fa;
     border-radius: 8px;
     border: 1px solid #d3d3d3;
@@ -140,4 +139,34 @@ footer p {
 footer a {
     color: #0073e6;
     font-weight: bold;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+    /* Stack profile image and text vertically */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin: 0 auto 20px; /* Center the image */
+    }
+
+    h1 {
+        font-size: 28px; /* Adjust font size for mobile */
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px; /* Adjust paragraph size for mobile */
+    }
+
+    .container {
+        padding: 15px;
+        margin: 20px auto;
+    }
 }
