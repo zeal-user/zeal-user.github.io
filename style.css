@@ -17,38 +17,49 @@ body {
 
 /* Header Section */
 header {
-    text-align: center;
+    display: flex;
+    align-items: center; /* Vertically aligns image and content */
     padding: 20px;
     border-bottom: 2px solid #e6e6e6;
     background-color: #e0f7fa;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 25px;
 }
 
+/* Image Styling */
 .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-right: 20px; /* Adds space between image and text */
     border: 4px solid #0073e6;
 }
 
+/* Align the content vertically */
+header div {
+    text-align: left; /* Align text to the left */
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center; /* Vertically centers the content */
+}
+
+h1, h2, p {
+    margin: 5px 0; /* Small spacing between lines */
+}
+
 h1 {
-    margin: 0;
     font-size: 36px;
     color: #2d3e50;
 }
 
 h2 {
-    margin: 10px 0;
     font-size: 22px;
     color: #4c739d;
 }
 
 p {
-    margin: 5px 0;
+    font-size: 16px;
     color: #606060;
+    margin: 5px 0;
 }
 
 a {
@@ -59,7 +70,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 /* Section Styling */
 section {
     margin-bottom: 25px;
