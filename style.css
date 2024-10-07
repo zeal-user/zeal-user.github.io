@@ -65,6 +65,11 @@ p {
     margin: 5px 0;
 }
 
+/* Class for black text */
+p.black-text {
+    color: #000000; /* Gray color for specific paragraphs */
+}
+
 a {
     color: #0073e6;
     text-decoration: none;
