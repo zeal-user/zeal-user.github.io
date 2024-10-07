@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 800px;
     margin: 40px auto;
-    background-color: white;
+    background-color: #1a1a1a;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
@@ -23,6 +23,8 @@ header {
     border-bottom: 2px solid #e6e6e6;
     background-color: #e0f7fa;
     margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
 }
 
 /* Image Styling */
@@ -109,7 +111,7 @@ section h3 {
     font-size: 24px;
     color: #2d3e50;
     margin-bottom: 15px;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #000000;
     padding-bottom: 10px;
 }
 
@@ -121,6 +123,8 @@ footer {
     padding-bottom: 10px;
     /* border-top: 2px solid #e6e6e6; */
     background-color: #e0f7fa;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
     font-size: 14px;
 }
 
