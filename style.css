@@ -23,6 +23,7 @@ header {
     background-color: #e0f7fa;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .profile-pic {
