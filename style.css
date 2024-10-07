@@ -31,6 +31,7 @@ header {
     height: 150px;
     border-radius: 50%;
     margin-right: 60px; /* Adds space between image and text */
+    margin-left: 20px;
     border: 4px solid #0073e6;
 }
 
